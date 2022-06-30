@@ -1,9 +1,6 @@
 import React from 'react';
-import dotenv from 'dotenv';
 import CharactersService from '../services/charactersAPI';
 import Table from './Table';
-
-dotenv.config();
 
 const getRealityClass = (hereIsTheUpsideDownWorld) => (
   hereIsTheUpsideDownWorld ? 'upside-down' : 'stranger-things'
